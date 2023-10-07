@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
-    <header class="header">Header</header>
-    <main class="main">Main</main>
-    <footer class="footer">Footer</footer>
-</body>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header__logo-wrapper">
+        <a href=""><img src="./images/лого.png" alt="logo" /></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="">Чому ми?</a>
+          </li>
+          <li class="nav__list-item"><a href="">Партнери</a></li>
+          <li class="nav__list-item"><a href="">Благодійність</a></li>
+          <li class="nav__list-item"><a href="">Про нас</a></li>
+          <li class="nav__list-item"><a href="">Drupal</a></li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <div class="contacts__socials">
+          <ul class="contacts__socials__list">
+            <li class="contacts__socials__list__item">
+              <img
+                src="./images/socialsImg/facebook.png"
+                alt="facebook"
+                width="35"
+                height="35"
+              />
+            </li>
+            <li class="contacts__socials__list__item">
+              <img
+                src="./images/socialsImg/insta.png"
+                alt="instargam"
+                width="35"
+                height="35"
+              />
+            </li>
+            <li class="contacts__socials__list__item">
+              <img
+                src="./images/socialsImg/viber.png"
+                alt="viber"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__number">
+          <p>Пн-Пт з 10 до 18</p>
+          <p>0 (800) 759-759</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main container">
+      <section class="hero">
+        <div class="hero__info-wrapper">
+            <img class="hero__bg1" src="./images/bg1.svg" alt="bg1" width="296" height="436">
+          <div style="z-index: 1;">
+            <p class="hero__pre-title">Вебстудія №1 з розробки сайтів</p>
+            <h1 class="hero__title">Приєднуйтесь до нашої IT-команди</h1>
+          </div>
+
+          <p class="hero__text-after-title">
+            Відкрийте нові перспективи кар'єрного зростання, приєднавшись до
+            нашої інноваційної IT-команди, яка відкриває двері до безмежних
+            можливостей
+          </p>
+          <button class="hero__btn"  type="button">Спробуй свої сили</button>
+        </div>
+        <div class="globusImg__wrapper">
+          <img src="./images/globus.svg" alt="globus" />
+          <img src="./images/bg.svg" alt="bg" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"></footer>
+  </body>
 </html>
